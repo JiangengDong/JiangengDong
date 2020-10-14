@@ -7,13 +7,11 @@ permalink: /research/
 
 ## Neural-based Constrained Motion Planning
 
-Constrained motion planning, which means finding a collision-free path under some constraints, is still a difficult task for robots. The problem is that the constraint is usually implicit, which makes sampling directly on the constrained manifold impossible.
+![compnet-bartender]({{ "/assets/compnet-bartender.gif" | relative_url }})
 
-Hence, we introduce a neural sampler into our project. It can generate informed samples that are close to the manifold, and in turn reduces the number of samples required before finding a path.
+We increase the speed for solving constrained motion planning problems with a neural-based informed sampler. The generated samplers distribute near the constrained manifold and prefer high-promising areas, which saves the time of projection and searching.
 [**[video]**](https://sites.google.com/view/constrainedmpnet/home)
 
 ## Robot Motion Imitation
 
-Teaching by demonstration is an interesting method that can increase the flexibility of robots. It reduces the requirement of users' programming and robot knowledge. The traditional way, known as "behavior cloning", is to learn a mapping from the state space to the action space.
-
-In this project, however, we adopt "Generative Adversarial Imitation Learning", raised by Jonathan Ho, on top of the behavior cloning. It integrates inverse reinforcement learning and reinforcement learning, so that the agent can extract a criterion from the demonstrations and optimize under it.
+We adopt Generative Adversarial Imitation Learning along with Behavior Cloning to teach a robot by demonstration. An RNN layer is used in this model to extract some overall features of a trajectory.
