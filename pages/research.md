@@ -9,8 +9,9 @@ permalink: /research/
 
 ![compnet-bartender]({{ "/assets/compnet-bartender.gif" | relative_url }})
 
-We increase the speed for solving constrained motion planning problems with a neural-based informed sampler. The generated samplers distribute near the constrained manifold and prefer high-promising areas, which saves the time of projection and searching.
-[**[video]**](https://sites.google.com/view/constrainedmpnet/home)
+We increase the speed for solving Constrained Motion Planning (CMP) problems with a neural-based informed sampler, whose generated samples distribute near the constrained manifold and prefer high-promising areas, saving the time of projection and searching. We also introduce an neural-based projector that enable faster projection towards the manifold. 
+
+[**[More details]**](https://sites.google.com/view/constrainedmpnet/home)
 
 ## Robot Motion Imitation
 
