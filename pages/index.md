@@ -7,11 +7,17 @@ permalink: /
 
 ![portrait]({% link /assets/selfie.webp %})
 
-I am a 2nd year MS student at UC San Diego in the ECE department under Intelligent System, Robotics, and Control program. My research interest includes motion planning, reinforcement learning and deep learning. Currently, I am working in the [ARCLab](https://www.ucsdarclab.com/) on a neural-based constrained motion planning project.
+I am a Robotics Engineer in the [Nimble Robotics](https://nimble.ai/), which provides automated end-to-end piece-picking, sorting, and packing solutions for eCommerce order fulfillment. My own research interest includes motion planning, reinforcement learning and deep learning. 
+
+## Work experience
+
+- **Nimble Robotics**: July 2021 -- present
+  
+  *Robotics Engineer*
 
 ## Education
 
-- **University of California, San Diego**: Sep. 2019 -- present
+- **University of California, San Diego**: Sep. 2019 -- Mar. 2021
 
     *Master of Science in Electrical and Computer Engineering*
 
